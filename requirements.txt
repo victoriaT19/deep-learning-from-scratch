@@ -1,0 +1,6 @@
+numpy
+torch
+regex
+scikit-learn
+matplotlib
+pytest

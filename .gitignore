@@ -1,0 +1,17 @@
+*.bin
+*.o
+*.out
+*.pt
+*.pyc
+.env
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+data/
+models/
+out/
+05-cuda/*
+!05-cuda/*.cu
+!05-cuda/Makefile
+!05-cuda/notes.md
+09-autoresearch/results.tsv
