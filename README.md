@@ -21,6 +21,9 @@ Deep learning studied from first principles up to training small language models
 | `00-foundations/udl` | Notes and NumPy experiments for *Understanding Deep Learning* |
 | `00-foundations/math-dl` | Notes and experiments for *Mathematical Introduction to Deep Learning* |
 | `01-micrograd` | Scalar autograd engine and a small MLP, checked against PyTorch |
+| `02-makemore` | Character-level language models: bigram, MLP, batchnorm, manual backprop, WaveNet |
+| `03-transformer` | GPT trained on Tiny Shakespeare |
+| `04-tokenization` | Byte pair encoding: basic and regex tokenizers with special tokens |
 
 ## Setup
 
@@ -29,4 +32,4 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Tests live next to the code they test; run `pytest` inside a folder.
+Datasets are downloaded by the scripts into `data/` (ignored by git). Tests live next to the code they test; run `pytest` inside a folder.
