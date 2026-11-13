@@ -1,4 +1,4 @@
-# v3
+# Deep learning from scratch
 
 Deep learning studied from first principles up to training small language models, one topic at a time, with code that runs. Each folder has a `notes.md` with what I learned, what I measured and what did not work.
 
